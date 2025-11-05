@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="cor_primaria">#00796B</color> <!-- Teal 700 -->
+    <color name="cor_primaria_escura">#004D40</color> <!-- Teal 900 -->
+    <color name="cor_acento">#FFC107</color> <!-- Amber -->
+
+    <!-- Cores específicas da Splash Screen -->
+    <color name="cor_fundo_splash">@color/cor_primaria</color>
+    <color name="cor_texto_splash">#FFFFFF</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

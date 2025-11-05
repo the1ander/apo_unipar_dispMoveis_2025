@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.Apo_DesMobile_2025" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- ... suas personalizações ... -->
+    </style>
+
+    <style name="Theme.Apo_DesMobile_2025.NoActionBar" parent="Theme.Apo_DesMobile_2025">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- 1. Para a MainActivity (remove a barra de ação padrão) -->
+    <style name="Theme.Apo_DesMobile_2025.Splash" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/cor_fundo_splash</item>
+    </style>
+
+    <!-- 2. Para o menu popup da Toolbar (se você optou por mantê-lo) -->
+    <style name="Theme.Apo_DesMobile_2025.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <!-- 3. Para a AppBarLayout (garante contraste na barra de topo) -->
+
+    <style name="Theme.Apo_DesMobile_2025.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+</resources>
+

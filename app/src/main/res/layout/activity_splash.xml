@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cor_fundo_splash"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/tv_nome_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nome_do_aplicativo"
+        android:textSize="32sp"
+        android:textColor="@color/cor_texto_splash"
+        android:textStyle="bold" />
+
+    <!-- Você pode adicionar um ImageView aqui para o logo -->
+
+</RelativeLayout>
