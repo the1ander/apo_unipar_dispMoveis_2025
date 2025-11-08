@@ -1,7 +1,16 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
 
     <style name="Theme.Apo_DesMobile_2025" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
-        <!-- ... suas personalizações ... -->
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/cor_primaria</item>
+        <item name="colorPrimaryVariant">@color/cor_primaria_escura</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/cor_acento</item>
+        <item name="colorSecondaryVariant">@color/cor_acento</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
     </style>
 
     <style name="Theme.Apo_DesMobile_2025.NoActionBar" parent="Theme.Apo_DesMobile_2025">
@@ -11,7 +20,8 @@
 
     <!-- 1. Para a MainActivity (remove a barra de ação padrão) -->
     <style name="Theme.Apo_DesMobile_2025.Splash" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-        <item name="android:statusBarColor">@color/cor_fundo_splash</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/cor_fundo_splash</item>
+
     </style>
 
     <!-- 2. Para o menu popup da Toolbar (se você optou por mantê-lo) -->
@@ -19,5 +29,15 @@
     <!-- 3. Para a AppBarLayout (garante contraste na barra de topo) -->
 
     <style name="Theme.Apo_DesMobile_2025.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
-</resources>
+
+<!-- This theme correctly inherits from an AppCompat theme -->
+    <!-- <style name="Theme.Apo_DesMobile_2025.NoActionBar"
+        parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!- Customize your theme attributes here -->
+    
+<!-- This theme correctly inherits from an AppCompat theme -->
+    <!-- <style name="Theme.Apo_DesMobile_2025.NoActionBar"
+        parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <- Customize your theme attributes here -->
+    </resources>
 
