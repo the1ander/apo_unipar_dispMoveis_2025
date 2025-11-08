@@ -1,3 +1,5 @@
 <resources>
     <dimen name="fab_margin">16dp</dimen>
+    <dimen name="padding_padrao">16dp</dimen>
+    <dimen name="tamanho_titulo">24sp</dimen>
 </resources>
