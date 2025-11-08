@@ -29,5 +29,15 @@
     <!-- 3. Para a AppBarLayout (garante contraste na barra de topo) -->
 
     <style name="Theme.Apo_DesMobile_2025.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
-</resources>
+
+<!-- This theme correctly inherits from an AppCompat theme -->
+    <!-- <style name="Theme.Apo_DesMobile_2025.NoActionBar"
+        parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!- Customize your theme attributes here -->
+    
+<!-- This theme correctly inherits from an AppCompat theme -->
+    <!-- <style name="Theme.Apo_DesMobile_2025.NoActionBar"
+        parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <- Customize your theme attributes here -->
+    </resources>
 
