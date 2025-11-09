@@ -27,8 +27,8 @@
 
     <!-- Strings da Tela Sobre o Aluno (ThirdFragment) -->
     <string name="descricao_foto_aluno">Foto de perfil do aluno</string>
-    <string name="nome_aluno">Seu Nome Completo</string>
-    <string name="ra_aluno">RA: 123456789</string>
+    <string name="nome_aluno">Anderson Poltronieri da Luz</string>
+    <string name="ra_aluno">RA: 09044957</string>
     <string name="curso_aluno">Curso: Programação de Dispositivos Móveis</string>
     <string name="mensagem_projeto">Este projeto foi desenvolvido como parte da disciplina de Programação de Dispositivos Móveis.</string>
 

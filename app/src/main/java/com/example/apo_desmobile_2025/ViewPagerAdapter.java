@@ -1,6 +1,4 @@
-package com.example.apo_desmobile_2025 ;
-
-import androidx.annotation.NonNull;
+package com.example.apo_desmobile_2025;import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
@@ -20,22 +18,23 @@ public class ViewPagerAdapter extends FragmentStateAdapter {
         // Retorna o Fragmento correto baseado na posição da aba
         switch (position) {
             case 0:
-                // Aba 0: Tela de Boas-vindas/Login
+                // Aba 0: Tela de Boas-vindas
                 return new FirstFragment();
             case 1:
                 // Aba 1: Tela de Previsão do Tempo
                 return new SecondFragment();
             case 2:
                 // Aba 2: Tela Sobre o Aluno
-                return new FirstFragment(); // AGORA USANDO O FRAGMENTO CORRETO
+                return new ThirdFragment(); // CORRIGIDO!
             default:
+                // Comportamento padrão para posições inesperadas. Retornar o primeiro é seguro.
                 return new FirstFragment();
         }
     }
 
     @Override
     public int getItemCount() {
-        // Número total de abas: 3
+        // Número total de abas. O seu código já está correto aqui.
         return tabTitles.length;
     }
 
